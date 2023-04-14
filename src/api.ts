@@ -9,6 +9,7 @@ import { explosion } from './explosion.js';
 import { roleOf, isDropOrig, changeNumber } from './util.js';
 import * as cg from './types.js';
 
+//trying out a chessground wrapper for board UI
 export interface Api {
   // reconfigure the instance. Accepts all config options, except for viewOnly & drawable.visible.
   // board will be animated accordingly, if animations are enabled.
